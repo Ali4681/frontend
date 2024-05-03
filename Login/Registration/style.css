@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    background-color: rgb(81, 78, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 {
+    background-color: white;
+    max-width: 250px;
+    min-height: 200px;
+    border-radius: 5px;
+    padding: 25px;
+
+    width: 90%;
+    position: relative;
+    box-shadow: 5px 10px 5px 0 #c0bbbb;
+}
+
+.u1 {
+    text-decoration-color: blue;
+}
+
+.b1 h3::after {
+    content: "";
+    height: 1px;
+    width: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 63px;
+    left: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.name {
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+.email {
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+.password {
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #0867ffce;
+    color: white;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.password1 {
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+
+.check1 {
+    cursor: pointer;
+}
+
+
+p {
+    text-align: center;
+}

@@ -1,0 +1,254 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #212C47;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.BrandName {
+    margin: 0;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+    color: white;
+    justify-content: center;
+
+}
+
+.log {
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.Join {
+    background-color: #23A7F1;
+    width: 80px;
+    height: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login {
+    padding: 10px 5px;
+
+}
+
+.home:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.product:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.pricing:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.contact:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.login:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.Join:hover {
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+.panner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.pannerText {
+    color: white;
+    text-align: center;
+}
+
+.pannerText .welcome {
+    color: #23A7F1;
+    text-align: center;
+}
+
+.we {
+    margin: auto;
+    width: 330px;
+
+}
+
+.pannerButton {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.get {
+    background-color: #23A7F1;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.get:hover {
+    border: 1px solid #23A7F1;
+    background-color: #212C47;
+    color: #23A7F1;
+}
+
+.learn {
+    background-color: #212C47;
+    padding: 10px 5px;
+    text-align: center;
+    border: 1px solid #23A7F1;
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    color: #23A7F1;
+    cursor: pointer;
+}
+
+
+.learn:hover {
+    background-color: #23A7F1;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    justify-content: space-between;
+
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+    padding: 15px;
+    height: 180px;
+}
+
+.smile {
+    background-color: pink;
+    padding: 10px;
+    width: fit-content;
+
+}
+
+.lorem::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: pink;
+    bottom: 50px;
+}
+
+
+.lorem {
+    width: fit-content;
+    position: relative;
+}
+
+
+.card2 {
+    background-color: white;
+    width: 25%;
+    padding: 15px;
+    height: 180px;
+}
+
+.check {
+    background-color: rgba(0, 128, 0, 0.334);
+    color: green;
+    padding: 10px;
+    width: fit-content;
+}
+
+.lorem1::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: pink;
+    bottom: 40px;
+}
+
+
+.lorem1 {
+    width: fit-content;
+    position: relative;
+}
+
+.card3 {
+    background-color: #23A7F1;
+    width: 25%;
+    padding: 15px;
+    height: 180px;
+    color: white;
+}
+
+.card {
+    background-color: white;
+    color: #23A7F1;
+    padding: 10px;
+    width: fit-content;
+}
+
+.lorem2::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    bottom: 40px;
+}
+
+
+.lorem2 {
+    width: fit-content;
+    position: relative;
+
+}
