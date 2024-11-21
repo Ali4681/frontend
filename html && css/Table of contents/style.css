@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+
+.parent {
+    background-color: bisque;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+
+}
+
+.connect {
+    display: flex;
+    position: relative;
+    top: 33px;
+    left: 5px;
+    margin-right: 10px;
+    transform: rotate(45deg);
+    color: gray;
+}
+
+.parent div:nth-child(1) {
+    color: black;
+    margin-left: 0px;
+
+}
+
+ul {
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    line-height: 36px;
+    margin-left: 15px;
+    color: rgba(248, 169, 23, 0.993);
+    font-size: 22px;
+
+}
+
+.parent div:nth-child(4) {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    width: 500px;
+    height: 100px;
+    top: 420px;
+    padding-left: 30px;
+    left: 70px;
+}
+
+.parent div:nth-child(4)::before {
+    content: "Hey!";
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80px;
+    border-radius: 15px 0 0 15px;
+    position: absolute;
+    left: -70px;
+}

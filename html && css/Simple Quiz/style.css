@@ -1,0 +1,185 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(
+    150deg,
+    rgb(107, 107, 194),
+    rgb(21, 18, 98),
+    rgb(26, 80, 111)
+  );
+}
+
+.parent {
+  background-color: white;
+  border-radius: 12px;
+  height: 350px;
+  width: 450px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.question {
+  font-weight: 100;
+  font-size: 22px;
+  color: rgba(59, 59, 161, 0.885);
+  position: absolute;
+  top: -90px;
+  left: -90px;
+}
+
+i {
+  position: absolute;
+  left: 17px;
+  top: 50px;
+  width: 310px;
+  height: 0.1px;
+  background-color: rgba(59, 59, 161, 0.885);
+}
+
+p {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  font-size: 16px;
+  color: rgba(59, 59, 161, 0.885);
+}
+
+form {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-left: -137px;
+  padding: 2px;
+}
+
+form div:nth-child(2) {
+  display: flex;
+  position: absolute;
+  left: -120px;
+  top: -30px;
+  width: 370px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-left: 8px;
+  transition: 500ms ease;
+}
+
+form div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: -120px;
+  top: 0;
+  width: 370px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-left: 8px;
+  transition: 500ms ease;
+}
+
+form div:nth-child(4) {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: -120px;
+  top: 30px;
+  width: 370px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-left: 8px;
+  transition: 500ms ease;
+}
+
+form div:nth-child(5) {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: -120px;
+  top: 60px;
+  width: 370px;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-left: 8px;
+
+  transition: 500ms ease;
+}
+
+.correct {
+  background-color: green;
+  cursor: no-drop;
+}
+
+.false {
+  background-color: red;
+  cursor: no-drop;
+}
+
+form div.correct:hover,
+form div.false:hover {
+  cursor: no-drop;
+}
+
+.Next {
+  position: absolute;
+  bottom: 30px;
+  padding: 5px;
+  width: fit-content;
+  background-color: rgba(3, 38, 80, 0.942);
+  color: white;
+  cursor: pointer;
+}
+
+.Next:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 1s ease;
+}
+
+.s2 {
+  color: black;
+  margin-top: -50px;
+}
+.s1 {
+  color: black;
+  margin-top: -100px;
+}
+
+.q22 {
+  position: absolute;
+  margin-top: -30px;
+  left: 200px;
+  color: black;
+}
+
+.q11 {
+  position: absolute;
+  margin-top: -30px;
+  left: 300px;
+  color: black;
+}
+
+.q33 {
+  position: absolute;
+  margin-top: 100px;
+  left: 120px;
+  text-transform: capitalize;
+  color: rgb(109, 156, 95);
+  font-size: 20px;
+  font-weight: bold;
+}

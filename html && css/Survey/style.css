@@ -1,0 +1,72 @@
+body {
+    background-color: #90a4ae;
+
+}
+
+
+
+
+.name {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+
+}
+
+.email {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+}
+
+.age {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+}
+
+.select {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+}
+
+.area {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+}
+
+.button {
+    border-radius: 7px;
+    border: 1px solid #cfd8dc;
+    margin-left: 160px;
+}
+
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+    background-color: #53695e;
+    width: fit-content;
+    color: aliceblue;
+}
+
+.awesome {
+    margin-bottom: 10px;
+    gap: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.facebook {
+    color: blue;
+    font-size: 25px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.google {
+    color: rgb(122, 71, 71);
+    font-size: 25px;
+    cursor: pointer;
+}

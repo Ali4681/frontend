@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background-color: rgb(81, 78, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 {
+    background-color: white;
+    max-width: 250px;
+    min-height: 200px;
+    border-radius: 5px;
+    padding: 25px;
+    width: 90%;
+    position: relative;
+    box-shadow: 5px 10px 5px 0 #c0bbbb;
+}
+
+
+.b1 h3::before {
+    content: "";
+    height: 1px;
+    width: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 63px;
+
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email {
+    height: 20px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+.password {
+    height: 20px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #0867ffce;
+    color: white;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+p {
+    text-align: center;
+}
