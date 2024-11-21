@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #eaf9e7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #c0e6ba;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.search {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.searchInp {
+  padding: 4px;
+  width: 130%;
+  border: 1px solid rgba(50, 79, 52, 0.438);
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.searchInp::placeholder {
+  text-align: center;
+}
+
+.searchInp::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  width: 10px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjEyMy4wNXB4IiBoZWlnaHQ9IjEyMy4wNXB4IiB2aWV3Qm94PSIwIDAgMTIzLjA1IDEyMy4wNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTIzLjA1IDEyMy4wNTsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTEyMS4zMjUsMTAuOTI1bC04LjUtOC4zOTljLTIuMy0yLjMtNi4xLTIuMy04LjUsMGwtNDIuNCw0Mi4zOTlMMTguNzI2LDEuNzI2Yy0yLjMwMS0yLjMwMS02LjEwMS0yLjMwMS04LjUsMGwtOC41LDguNQ0KCQljLTIuMzAxLDIuMy0yLjMwMSw2LjEsMCw4LjVsNDMuMSw0My4xbC00Mi4zLDQyLjVjLTIuMywyLjMtMi4zLDYuMSwwLDguNWw4LjUsOC41YzIuMywyLjMsNi4xLDIuMyw4LjUsMGw0Mi4zOTktNDIuNGw0Mi40LDQyLjQNCgkJYzIuMywyLjMsNi4xLDIuMyw4LjUsMGw4LjUtOC41YzIuMy0yLjMsMi4zLTYuMSwwLTguNWwtNDIuNS00Mi40bDQyLjQtNDIuMzk5QzEyMy42MjUsMTcuMTI1LDEyMy42MjUsMTMuMzI1LDEyMS4zMjUsMTAuOTI1eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);
+  background-size: 10px 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  justify-content: space-around;
+  column-gap: 100px;
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 10%;
+  transition: all 0.8s ease-in;
+}
+.card:hover {
+  transition: 10px;
+  transform: translateY(-7px);
+  transition: 1s ease-in !important;
+  scale: 0.7;
+}
+
+.card:active {
+  transform: scale(1) translateZ(0);
+}
+
+.Poster {
+  border-radius: 10%;
+  width: 100%;
+  background-color: #4ca770dd;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 32px 64px;
+  min-height: fit-content;
+}
+
+.rate {
+  border: 1px solid black;
+  background-color: #013237;
+  color: white;
+  padding: 4px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 10px;
+  z-index: 100;
+  transition: all 1s ease-in;
+}
+
+.card:hover .rate {
+  opacity: 0.5;
+}
+
+.rate:hover {
+  transform: translateY(-10px);
+}
+
+.title {
+  display: none;
+  background-color: #013237;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+}
+
+.description {
+  display: none;
+  background-color: #01323743;
+  color: white;
+  width: 100%;
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 120px;
+}
+
+.card:hover .title {
+  display: block;
+  /* transition: all 0.8s ease-in !important; */
+  transform: translateY(-180px);
+  transition: 2s;
+}
+
+.card:hover .description {
+  display: block;
+  /* transition: all 0.8s ease-in !important; */
+  transform: translateY(-180px);
+}
+
+.card:hover .Poster {
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.move {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  width: 3.5%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.counter {
+  
+  padding: 5px;
+  border: 1px solid #013237;
+  background-color: #013237;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.counter:hover {
+  background-color: #4ca770dd;
+  color: white;
+  transition: 0.5s;
+}

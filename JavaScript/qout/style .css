@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(111deg, #1cd0a0, #7865f1);
+}
+
+.parent {
+  background-color: white;
+  width: 60%;
+  height: 60%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+.Qoute {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Qoute::before {
+  content: "";
+  width: 40%;
+  height: 2px;
+  background-color: #5c87d8;
+  position: absolute;
+  top: 50px;
+}
+
+.lorem {
+  margin-top: 50px;
+  width: 40%;
+}
+
+.Author {
+  align-self: flex-end;
+  /* margin-right: 20px; */
+}
+
+.btn {
+  width: 50%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.btn1 {
+  display: flex;
+  align-self: center;
+  background-color: #3f88e8;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 35px;
+  color: white;
+  cursor: pointer;
+}
+.btn2 {
+  display: flex;
+  align-self: center;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #3f88e8;
+  border-radius: 20px;
+  padding: 10px 35px;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  border: 1px solid #3f88e8;
+  color: black;
+}
+
+.btn2:hover {
+  background-color: #3f88e8;
+  color: white;
+}

@@ -1,0 +1,129 @@
+body {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 20px;
+  background: linear-gradient(111deg, #1cd0a0, #7865f1);
+}
+
+.parent {
+  background-color: white;
+  min-height: 150px;
+  width: 400px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+h2 {
+  display: flex;
+  position: absolute;
+  top: -5px;
+  left: 25px;
+}
+
+img {
+  display: flex;
+  position: absolute;
+  width: 25px;
+  top: 16px;
+  left: 140px;
+  margin-left: 2px;
+}
+
+.text {
+  display: flex;
+  position: absolute;
+  border-radius: 20px;
+  width: 330px;
+  height: 28px;
+  left: 30px;
+  border: none;
+  background-color: #eee;
+  padding-left: 15px;
+  outline-color: rgb(235, 106, 36);
+}
+
+.parent button {
+  display: flex;
+  position: absolute;
+  background-color: rgb(235, 106, 36);
+  color: white;
+  top: 75px;
+  left: 310px;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#a1 {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  accent-color: rgb(235, 106, 36);
+}
+
+.para {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+
+.para li {
+  /* position: relative; */
+  list-style: none;
+  /* text-decoration: line-through; */
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.para li.checked span {
+  display: inline;
+  text-decoration: none;
+}
+
+.para li::before {
+  content: "";
+  background-image: url("/image/unchecked.png");
+  width: 79px;
+  height: 77px;
+  position: absolute;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  left: -50px;
+  top: -10px;
+}
+
+.para li.checked::before {
+  content: "";
+  background-image: url("/image/checked.png");
+
+  width: 79px;
+  height: 77px;
+  position: absolute;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  left: -50px;
+  top: -10px;
+}
+
+.para li.checked {
+  text-decoration: line-through;
+}
+
+.para li span {
+  display: none;
+  cursor: pointer;
+  text-decoration: none;
+}
